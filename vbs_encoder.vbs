@@ -1,3 +1,4 @@
+' koduje vbs do vbe. wystarczy przenieść plik vbs na ten plik
 Option Explicit 
  
 dim oEncoder, oFilesToEncode, file, sDest 
