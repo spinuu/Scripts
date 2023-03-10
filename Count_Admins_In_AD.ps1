@@ -49,3 +49,4 @@ if ($greater) {
      Send-MailMessage -To $recipients -Subject $subject -From $smtp_username -Body $body -SmtpServer $smtp_server -Port $smtp_port -Credential $smtp_credentials -encoding "utf8" -BodyAsHtml
      Export-Clixml -Path "C:\skrypty\admins.xml" -InputObject @($new_counts)
 }
+
