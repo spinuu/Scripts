@@ -1,3 +1,6 @@
+REM skrypt odpala skrypt sql backup_mssql_databases.sql w celu backupu
+REM potem na podstawie dnia tygodnia przenosi do odpowiedniego katalogu
+
 @echo off
 del /F /Q "C:\backuplocatoion\*.bak"
 sqlcmd -S SQLSERVER\SQL-i "C:\scriptslocation\backup_mssql_databases.sql" -o "c:\loglocation\output_Daily.txt"
