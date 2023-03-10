@@ -1,3 +1,7 @@
+#skrypt listuje użytkowników w danym OU w AD i zapisuje do pliku (można wrzucić do xml czy nawet do tablicy, ale potrzebowałem txt)
+# na podstawie nazwy skróconej użtkownika zakłada katalog i dodaje odpowiednie uprawnienia
+
+
 Import-Module ActiveDirectory
 
 #lokalizacja pliku z użytkownikami
