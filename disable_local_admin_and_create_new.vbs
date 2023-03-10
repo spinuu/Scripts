@@ -4,7 +4,7 @@ sUser = "username"
 set oShell    = WScript.CreateObject("WScript.Shell")
 set oShellEnv = oShell.Environment("Process")
 computerName  = oShellEnv("ComputerName")
-FileName = "\\pmrltd.local\NETLOGON\admin\" & computerName & ".txt"
+FileName = "\\remotelocation\" & computerName & ".txt"
 Dim oTxtFile
 set fso = CreateObject("Scripting.FileSystemObject")
 If (fso.FileExists(FileName)) Then
