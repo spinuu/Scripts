@@ -1,3 +1,5 @@
+#kopiuje plik graficzny ze ścieżki zdalnej i ustawia jako tapetę
+
 function Set-WallPaper($Value)
 
 {
