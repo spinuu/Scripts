@@ -23,7 +23,7 @@ ForEach ($user in $users)
         $acl.Access | %{$acl.RemoveAccessRule($_)}
 
         #nadanie uprawnień grupie Adminów
-        $Admin = "pmrltd.local\PMR_IT"
+        $Admin = "domain.local\Admins_Group"
         $AccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule( $Admin, "FullControl", "ContainerInherit,ObjectInherit", "None", "Allow")
         $ACL.SetAccessRule($AccessRule)
         $ACL | Set-Acl -Path $newPath
