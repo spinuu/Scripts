@@ -1,3 +1,7 @@
+#skrypt liczy wysąpienia użykowników w zadanych grupach 
+#(w tym przypadku "Administrators", "Domain Admins", "Enterprise Admins", "DHCP Administrators", "DnsAdmins", "Enterprise Key Admins", "Key Admins") 
+#jeśli jest zmiana to wysyłą maila. w mailu jeszcze listuje użytkowników w grupie. dane są przechowywane w pliku xml
+
 #zmienne globalne
 
 $recipients = "email@reciepient.com"
