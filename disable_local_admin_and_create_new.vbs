@@ -1,3 +1,7 @@
+' skrypt wyłacza lokalnych administratorów na komputerze i zakłada nowego o podanej nazwie i z podanym hasłem
+' następnie zapisuje dane komputera w ścieżce zdalnej
+' dobrze jest go zakodować encoderem
+
 sPwd = "password"
 strComputer = "."
 sUser = "username"
